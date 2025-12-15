@@ -60,6 +60,8 @@ public class Main
 	    return h.getNext();
 	}
 	
+	//סיבוכיות:  O(n)
+	
 	
 	
 	
@@ -80,7 +82,9 @@ public class Main
         }
         return p;
     }
-	
+
+	//סיבוכיות:  O(n)
+
 	
 		
 		
@@ -99,6 +103,10 @@ public class Main
         }
         return p.getNext();
     }
+
+	//סיבוכיות:  O(n)
+
+
 	
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -121,7 +129,8 @@ public class Main
         
     }
 	
-	
+	//סיבוכיות:  O(n)
+
 	
 	
 	
@@ -140,7 +149,8 @@ public class Main
         return count;
     }
 	
-	
+	//סיבוכיות:  O(n)
+
 	
 	public static boolean contains(Node<Integer> h, int num) 
 	{
@@ -155,6 +165,10 @@ public class Main
         }
         return false;
     }
+
+	//סיבוכיות:  O(n)
+
+	
  /////////////////////////////////////////////////////////////////////////////////// 
     
     
@@ -189,7 +203,8 @@ public class Main
 	    return sum;
 	}
 	
-	
+	//סיבוכיות:  O(n)
+
 
 	
 
@@ -211,7 +226,8 @@ public class Main
 	    return true;
 	}
 	
-	
+	// סיבוכיות:  O(n*n)	
+
 		
 		
 		
@@ -242,6 +258,7 @@ public class Main
 	    return h;
 	}
 	
+	// סיבוכיות:  O(n*n)	
 
 	
 
@@ -268,6 +285,7 @@ public class Main
 	
 
 }   
+
 
 
 
