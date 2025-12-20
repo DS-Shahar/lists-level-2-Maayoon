@@ -129,7 +129,7 @@ public class Main
         
     }
 	
-	//סיבוכיות:  O(n)
+	//סיבוכיות:  O(n*n)
 
 	
 	
@@ -285,6 +285,7 @@ public class Main
 	
 
 }   
+
 
 
 
